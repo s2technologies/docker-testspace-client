@@ -5,4 +5,4 @@ RUN apt-get update && apt-get install -y \
     git \
  && rm -rf /var/lib/apt/lists/*
 
-RUN curl -fsSL https://testspace-client.s3.amazonaws.com/testspace-linux-dev.tgz | tar -zxvf- -C /usr/local/bin
+RUN curl -fsSL https://testspace-client.s3.amazonaws.com/testspace-linux.tgz | tar -zxvf- -C /usr/local/bin
