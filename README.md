@@ -1,6 +1,6 @@
 # docker-testspace-client
 
-Docker [image](https://hub.docker.com/r/s2technologies/testspace-client) based on ubuntu:18.04 with tools required to use Testspace client in automated builds.
+Docker [image](https://hub.docker.com/r/s2technologies/testspace-client) based on [buildpack-deps](https://hub.docker.com/r/_/buildpack-deps/) with tools required to use Testspace client in automated builds.
 
 Testspace client [help](https://help.testspace.com/reference:client-reference)
 
